@@ -64,3 +64,25 @@ main {
 .text {
   padding: 0 5px 5px 5px;
 }
+
+
+@media screen and (max-width:425px) {
+  main {
+    width: 100%;
+    margin: 50px auto;
+  }
+  .box {
+    width: 90%;
+    margin:0 auto;
+    margin-bottom: 20px;
+    float: none;
+  }
+  .box:last-child {
+    margin-bottom: 0;
+    margin: 0 auto;
+  }
+  .img1, .img2, .img3 {
+    width: 90%;
+    margin: 15px auto;
+  }
+  }
